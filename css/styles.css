@@ -448,7 +448,6 @@ img {
 .clients-item:hover,
 .clients-item:focus {
   color: var(--accent-color);
-  box-shadow: var(--primary-shadow-hover);
   border: 1px solid var(--accent-color);
 }
 
