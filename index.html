@@ -65,7 +65,9 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="button primary">Заказать услугу</button>
+          <button type="button" class="button primary" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <!-- features -->
@@ -129,6 +131,7 @@
                 width="370"
                 height="294"
               />
+              <h3 class="specialty-title">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
             </li>
             <li class="item">
               <img
@@ -137,6 +140,7 @@
                 width="370"
                 height="294"
               />
+              <h3 class="specialty-title">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
             </li>
             <li class="item">
               <img
@@ -145,6 +149,7 @@
                 width="370"
                 height="294"
               />
+              <h3 class="specialty-title">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
             </li>
           </ul>
         </div>
@@ -388,7 +393,6 @@
         </div>
       </section>
     </main>
-
     <!-- main footer -->
     <footer class="footer">
       <div id="contacts" class="container">
@@ -451,5 +455,17 @@
         </div>
       </div>
     </footer>
+    <!-- modal window  -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="button-close button" data-modal-close>
+          <svg class="icon-close icon">
+            <use href="./images/svg/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
